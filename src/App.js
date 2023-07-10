@@ -57,32 +57,11 @@ function App() {
             </div>
           </div>
           
-          
           <div className="min-h-screen bg-[#4a5240] w-screen pt-20 flex flex-col justify-center snap-start">
-            <h1 className="text-6xl font-bold underline mt-40 ml-96 text-[#f5f1ed]">What is it?</h1>
-            <div className= "container mr-96 flex flex-row ">
-          
-              <div className= " w-3/5">
-                <p className="text-left text-2xl pt-6 pr-10 text-[#f5f1ed]" >Welcome to our creative community! We are a website designed for artists who want to stay motivated and productive.
-                    We believe that procrastination can be a major obstacle to achieving your goals as an artist, and that's why we offer a space where you can showcase your work,
-                    get feedback from fellow artists, and stay accountable to your creative projects. </p>
-                <p className="text-left text-2xl pt-6 pr-10 text-[#f5f1ed]">Our platform provides you with the tools you need to track your progress, share updates on your projects, and receive support from like-minded individuals.
-                    We encourage you to use this space as a place of inspiration, collaboration, and celebration of your artistic endeavors.</p>
-                <p className="text-left text-2xl pt-6 pr-10 text-[#f5f1ed]">So, whether you're a painter, sculptor, musician, writer, or any other type of artist, we invite you to join our community and start sharing your work today.
-                    Let's create something beautiful together!</p>
-              </div>
-              <div>
-                <img className="flex-1 w-auto" src="https://i.pinimg.com/originals/3a/80/36/3a80363ad681b4f6a79276c85f81ccb0.jpg" alt=""></img>
-              </div>
+            <h1 className="text-6xl font-bold underline mt-40 ml-96 text-[#f5f1ed]">The Players</h1>
+            <div className= "container mr-96 flex flex-row ">          
             </div>
-          </div>
-          
-          <div className="snap-start w-screen h-screen overflow-scroll">
-            {/* <Embed
-              id='qdZF5yJA8b4'
-              placeholder='https://steamuserimages-a.akamaihd.net/ugc/1675862552388648329/82113D1A5E258A3A4638B892E4CED1AA1035083D/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true'
-              source='youtube'
-            /> */}
+
           </div>
         </div>
         

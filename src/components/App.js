@@ -31,9 +31,9 @@ function App() {
     return (   
       <div>
         <Home/>
-        <Routes >
+        {/* <Routes >
           <Route path="/" element={<Home />} />
-        </Routes>
+        </Routes> */}
       </div>
 
   );

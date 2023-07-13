@@ -1,6 +1,9 @@
 import React from "react";
 
 function Home() {
+
+  
+
   return (
     <section className="bg-[#f5f1ed]">
       <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
@@ -46,9 +49,9 @@ function Home() {
         </div>
 
         <div className="min-h-screen bg-[#4a5240] w-screen pt-20 flex flex-col justify-center snap-start">
-          <h1 className="text-6xl font-bold underline mt-40 ml-96 text-[#f5f1ed]">
-            The Players
-          </h1>
+          <button className="text-6xl font-bold text-[#f5f1ed]">
+            Start Your Game!
+          </button>
           <div className="container mr-96 flex flex-row "></div>
         </div>
       </div>

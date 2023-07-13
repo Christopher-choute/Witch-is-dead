@@ -31,6 +31,7 @@ function App() {
 
 
         <div className= "snap-y snap-mandatory h-screen w-screen overflow-scroll">
+         
           <div className="homePage min-h-screen bg-[#f5f1ed] w-screen pt-20 flex flex-col justify-center snap-start">
           
             <h1 className="text-8xl font-bold mt-30 ml-96">The Witch is Dead App</h1>

@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
+
 
 function Home() {
 
@@ -49,9 +51,14 @@ function Home() {
         </div>
 
         <div className="min-h-screen bg-[#4a5240] w-screen pt-20 flex flex-col justify-center snap-start">
-          <button className="text-6xl font-bold text-[#f5f1ed]">
+          {/* <button className="text-6xl font-bold text-[#f5f1ed]">
             Start Your Game!
-          </button>
+          </button> */}
+
+          <NavLink exact to="/game" className="text-6xl text-center font-bold text-[#f5f1ed]">
+              <span className = "nav-text">Start Game!</span>
+          </NavLink>
+          
           <div className="container mr-96 flex flex-row "></div>
         </div>
       </div>
